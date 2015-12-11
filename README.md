@@ -1,2 +1,2 @@
 # maturademo.github.io
-Demo of
+Demo for https://github.com/mmathys/Matura-Paper/

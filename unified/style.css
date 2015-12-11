@@ -1,0 +1,44 @@
+#visualization-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px; }
+
+#overlay {
+  pointer-events: all; }
+
+.domain {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px; }
+
+.tick > line {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1px; }
+
+.tick > text {
+  fill: #666;
+  font-size: 14px; }
+
+.circle.data-circle {
+  r: 2px; }
+
+circle#tooltip-circle {
+  r: 7px;
+  fill: rgba(0, 0, 0, 0.4); }
+
+#label > text {
+  fill: black;
+  font-weight: 400;
+  font-size: 14px; }
+
+#overlay {
+  visibility: hidden; }
+
+.line {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.7);
+  stroke-width: 1px; }
+
+.hidden {
+  display: none; }
